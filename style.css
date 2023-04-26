@@ -236,3 +236,63 @@ header {
   padding: 0 5px;
   letter-spacing: 1px;
 }
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0;
+  width: 80vw;
+}
+
+.socials > li {
+  list-style-type: none;
+  min-width: 30px;
+}
+
+footer {
+  background-color: rgb(242 242 242) ;
+  width: 100vw;
+  padding: 0 24px ;
+  font-size: 11px;
+  text-decoration: none;
+    color: #616161;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #616161;
+}
+.nav-section {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-section > h3 {
+  font-size: 15px;
+  padding-top: 36px;
+  padding-bottom: 5px;
+}
+
+.nav-section > a {
+  text-decoration: none;
+  color: #616161;
+  padding: 8px 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+}
+
+.footer-links > li > a {
+  text-decoration: none;
+  color: #616161;
+  padding: 6px 10px 0 0;
+}
+ 
+footer > a {
+  font-size: 11px;
+  margin:  20px 0;
+}
