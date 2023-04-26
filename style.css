@@ -94,6 +94,7 @@ header {
 }
 
 .xbox-logo {
+  flex-grow: 3;
     margin-left: 40px;
     max-width: 150px;
 }
@@ -111,12 +112,19 @@ header {
 }
 .cart {
     width: 20px;
+    margin-right: 15px;
 }
 
 .user-icon {
     height: 35px;
     width: 35px;
     border-radius: 35px;
+}
+
+.cart-user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .microsoft-logo {
@@ -170,6 +178,8 @@ header {
   grid-template-rows: 1fr 1fr;
   padding: 20px 15px;
   gap: 20px;
+  width: 90%;
+  margin: auto;
 }
 
 .icon {
@@ -199,17 +209,14 @@ header {
 }
 
 .card-content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 50%;
   background-color: #333333;
   color: #fff;
-  z-index: 1;
+  width: 100%;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 40px 10px;
+  padding: 40px 2em;
   align-items:start;
 }
 
@@ -295,4 +302,14 @@ footer > a {
 footer > a {
   font-size: 11px;
   margin:  20px 0;
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .icon-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+    width: 70%;
+
+  }
 }
